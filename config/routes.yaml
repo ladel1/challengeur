@@ -1,3 +1,28 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+app_main_index:
+  path: /
+  controller: App\Controller\MainController::index
+
+app_main_aboutus:
+  path: /about-us
+  controller: App\Controller\MainController::aboutUs
+
+app_main_legalstuff:
+  path: /legal-stuff
+  controller: App\Controller\MainController::legalStuff    
+
+
+app_challenge_detail:
+  path: /challenge/detail
+  controller: App\Controller\ChallengeController::detail
+    
+app_challenge_add:
+  path: /challenge/add
+  controller: App\Controller\ChallengeController::add   
+
+app_challenge_list:
+  path: /challenge
+  controller: App\Controller\ChallengeController::list   
