@@ -16,7 +16,7 @@ app_main_legalstuff:
 
 
 app_challenge_detail:
-  path: /challenge/detail
+  path: /challenge/detail/{id}
   controller: App\Controller\ChallengeController::detail
     
 app_challenge_add:
